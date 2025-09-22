@@ -236,7 +236,7 @@ def start_game():
     quest_giver = place_random("𖨆", "Cult Leader", GREEN)
     healer = place_random("𖨆", "Cult Healer", BLUE)
     enemy_types = [
-        {"symbol": MAGENTA+"𖨆"+RESET, "name":"Zealot","damage":1,"hp":8, "gold":3},
+        {"symbol": MAGENTA+"𖨆"+RESET, "name":"Fanatic","damage":1,"hp":8, "gold":3},
         {"symbol": YELLOW+"𖨆"+RESET, "name":"Witch Hunter","damage":2,"hp":10, "gold":5},
         {"symbol": WHITE+"𖨆"+RESET, "name":"Paladin","damage":3,"hp":14, "gold":8},
     ]
